@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #222;
+  background-color: whitesmoke;
+}
+
+.container {
+  height: fit-content;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  padding: 2rem;
+}
+
+.left {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: rem;
+}
+
+.right {
+}
+
+.module {
+}
+
+.module > * {
+  margin-bottom: 1rem;
+}
+
+.breakout > * {
+  margin-bottom: 1rem;
+}
+
+.left-container {
+  width: 100%;
+  height: 100%;
+  margin: 1rem;
+}
+
+.global-module > * {
+  margin: 0.5rem;
+}
+
+.global-module > h2 {
+  font-size: 2rem;
+}
+
+.module > span {
+  margin-top: -0.5rem;
+}
+
+.breakout > span {
+  margin-top: -0.5rem;
+}
+
+.global-event > span {
+  margin-top: -0.5rem;
+}
+
+.right {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 1rem;
+}
+
+.right > div {
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 1rem;
+  padding: 2rem;
+}
+
+.global-event > * {
+  margin-bottom: 1rem;
+}
+
+.global-module > * {
+  margin-bottom: 1rem;
+}
+
+.global-event {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.global-event > h1 {
+  background-color: purple;
+  color: whitesmoke;
+  font-size: 3rem;
+  padding: 1rem 5rem;
+  width: fit-content;
+  font-size: 3rem;
+  width: 90%;
+}
+
+h1 {
+  background-color: purple;
+  color: whitesmoke;
+  font-size: 3rem;
+  padding: 0.5rem 3rem;
+  width: fit-content;
+  font-size: 3rem;
+}
+
+.module > h1 {
+  background-color: purple;
+  color: whitesmoke;
+  font-size: 3rem;
+  padding: 0.5rem 3rem;
+  width: fit-content;
+  display: block;
+}
+
+.module {
+  width: 100%;
+  height: 25vh;
+}
+
+.breakout {
+  width: 100%;
+  padding: 1rem;
+}
+
+h2 {
+  color: purple;
+  font-size: 2rem;
+}
+
+.chair {
+  display: flex;
+  flex-direction: row;
+}
+
+.chair > * {
+  color: #222;
+  padding: 0.5rem;
+}
+
+p {
+  color: #222;
+}
+
+span {
+  background-color: purple;
+  width: 5rem;
+  height: 0.2rem;
+  display: block;
+}
+
+/* Base font size */
+body {
+  font-size: 16px;
+}
+
+/* Font size for screens wider than 768px */
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* Font size for screens wider than 1024px */
+@media (min-width: 1024px) {
+  body {
+    font-size: 19px;
+  }
+}
+
+/* Font size for screens wider than 1280px */
+@media (min-width: 1280px) {
+  body {
+    font-size: 20px;
+  }
+}
